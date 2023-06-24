@@ -1,7 +1,7 @@
 <template>
   <div>
     <img :src="oneroom.image" class="room-img" />
-    <h4 v-on:click="$emit('openModal', oneroom.id)">{{oneroom.title}}</h4>
+    <h4 v-on:click="$emit('openModal', oneroom)">{{oneroom.title}}</h4>
     <p>{{oneroom.price}}원</p>
   </div>
 </template>
